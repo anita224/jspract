@@ -36,11 +36,11 @@
 // Номерація для кожного елемента масива ['Mango', 'Poly', 'Ajax'] з індексом 0 буде виведено 1 - Mango, а для индекса 2 выведет 3 - Ajax.
 
 const users = ['Mango', 'Poly', 'Ajax'];
+
 function logItems(array){
-    for (let i = 0; i < users.length; i += 1)
-    {
+    for (let i = 0; i < users.length; i += 1)  {
 console.log(i, users[i])
     }
 
 }
-logItems();
+logItems();   
